@@ -14,3 +14,7 @@ def write_todolist(todo_list_arg, filepath=FILEPATH):
     """ Write the to-do list item to the text file."""
     with open(filepath, 'w') as file:
         file.writelines(todo_list_arg)
+
+
+if __name__ == "__main__":
+    print("oy mate")
